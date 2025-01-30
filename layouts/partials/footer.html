@@ -1,0 +1,9 @@
+<div class="copyright">
+    <p>
+    {{ if (eq .Site.Params.copyrightSince (now.Format "2006")) }}
+        Copyright &copy; {{ .Site.Params.copyrightSince }}, {{ .Site.Params.operatingName }}{{ with .Site.Params.authorName }} ({{ . }}){{ end }}. All Rights Reserved. 
+    {{ else }}
+        Copyright &copy; {{ .Site.Params.copyrightSince }}-{{ now.Format "2006" }}, {{ .Site.Params.operatingName }}{{ with .Site.Params.authorName }} ({{ . }}){{ end }}. All Rights Reserved. 
+    {{ end }}
+    </p>
+</div>

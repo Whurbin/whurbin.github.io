@@ -1,0 +1,30 @@
+baseUrl = "http://whurbin.com/"
+languageCode = "en-us"
+title = "Whurbin"
+theme = "ga-hugo-theme"
+operatingName = "Whurbin"
+authorName = "James Hogan"
+
+[params]
+  copyrightSince = "2025"
+  operatingName = "Whurbin"
+  authorName = "James Hogan"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  project = "projects"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+    style = "monokai"
+
+  # We are not distributing a theme, and any code I put in a content
+  # file has the same trust level as code in a layout file.
+  # Disabling this setting to enable further customization.
+  [markup.goldmark.renderer]
+    unsafe = true

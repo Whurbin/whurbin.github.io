@@ -1,0 +1,222 @@
+body {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+body::before, body::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+body::before {
+  left: 0;
+  background-color: #1a1a1a;
+}
+
+body::after {
+  right: 0;
+  background-color: #2d0404;
+}
+
+.nav-container {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e0e0e0;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.7;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.circular-wrapper {
+    /* Size control */
+    width: 300px;
+    height: 300px;
+    background-color: white;
+
+    /* Create perfect circle */
+    border-radius: 50%;
+
+    /* Border styling */
+    border: 4px solid white;
+
+    /* Add shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    /* Ensure content doesn't overflow */
+    overflow: hidden;
+
+    /* Optional hover effect */
+    transition: transform 0.3s ease;
+}
+
+.circular-wrapper:hover {
+    transform: scale(1.05);
+}
+
+.circular-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.container {
+    background-color: #FAFAFA;
+    color: #000000;
+    border-radius: 8px;
+    padding: 1.5rem;
+    max-width: 100%;
+    width: 800px;
+    margin: 2rem auto;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    background-color: #FAFAFA;
+    color: #000000;
+    border-radius: 8px;
+    padding: 0px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 100%;
+    width: 800px;
+    margin: 2rem auto;
+    margin-top: 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.result {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.success {
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+}
+
+.error {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+
+.content-box {
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 10px;
+    color: #cbb478;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.loading {
+    color: #666;
+    font-style: italic;
+}
+
+.info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border: 1px solid #bce8f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    background-color: #337ab7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: none;
+}
+
+.download-btn:hover {
+    background-color: #286090;
+}
+
+/* Target the main container and its inner div */
+.highlight div {
+    background-color: #1a1a1a !important;
+    padding: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Target the pre elements */
+.highlight pre {
+    background-color: #1a1a1a !important;
+}
+
+/* Target the table cells */
+.highlight td {
+    background-color: #1a1a1a !important;
+}
+
+.qrcode-hover {
+    transition: transform 0.3s ease;
+}
+
+.qrcode-hover:hover {
+    transform: scale(1.05);
+}
+}
