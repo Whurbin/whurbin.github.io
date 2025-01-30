@@ -1,7 +1,6 @@
 baseUrl = "http://whurbin.com/"
 languageCode = "en-us"
 title = "Whurbin"
-theme = "ga-hugo-theme"
 operatingName = "Whurbin"
 authorName = "James Hogan"
 
