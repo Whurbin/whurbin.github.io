@@ -214,10 +214,12 @@ body::after {
     background-color: #1a1a1a !important;
 }
 
-.qrcode-hover {
+.qrcode {
+    height: 300px;
+    width: 300px;
     transition: transform 0.3s ease;
 }
 
-.qrcode-hover:hover {
+.qrcode:hover {
     transform: scale(1.05);
 }
