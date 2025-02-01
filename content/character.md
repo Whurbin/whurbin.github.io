@@ -25,7 +25,7 @@ Whurbin's beard, however, was something special. Gifted to him by the Great Girt
 
 Throughout their heroic battles, puzzles, and challenges, loot would sometimes fall out of his beard to reward the party for their efforts. At times in fierce situations, players would sometimes jump into his beard for safety, even shooting arrows from within to fell an enemy.
 
-(<b>SPOILERS</b>) Years later, while serving in the Flaming Fists in Balders Gate, he hears of the Death Curse which ravages the island of Chult. Intrigued, he joined an unlikely band of adventurers, financed by one of the merchant princes of Port Nyanzaru to go and lift the Death Curse.
+(<b>SPOILERS</b>) Years later, while serving in the Flaming Fists in Balders Gate, he hears of the Death Curse which ravages the island of Chult. Intrigued, he joins an unlikely band of adventurers, financed by one of the merchant princes of Port Nyanzaru to go and lift the Death Curse.
 
 <center><b>. . .</b></center><br/>
 
