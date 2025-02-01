@@ -47,7 +47,7 @@ body::after {
 .nav-links a {
     text-decoration: none;
     color: #e0e0e0;
-    font-size: 18px;
+    font-size: 1.1rem;
     padding: 0.5rem 1rem;
     transition: color 0.3s ease;
 }
@@ -99,7 +99,6 @@ body::after {
 .container {
     background-color: #FAFAFA;
     color: #000000;
-    font-size: 10px;
     border-radius: 8px;
     padding: 1.5rem;
     max-width: 100%;
@@ -132,7 +131,6 @@ body::after {
 
 .section-title {
     font-weight: bold;
-    font-size: 14px;
     margin-bottom: 10px;
 }
 
@@ -146,14 +144,12 @@ body::after {
     background-color: #dff0d8;
     border: 1px solid #d6e9c6;
     color: #3c763d;
-    font-size: 12px;
 }
 
 .error {
     background-color: #f2dede;
     border: 1px solid #ebccd1;
     color: #a94442;
-    font-size: 12px;
 }
 
 .content-box {
@@ -171,7 +167,6 @@ body::after {
 .loading {
     color: #666;
     font-style: italic;
-    font-size: 12px;
 }
 
 .info {
@@ -181,7 +176,6 @@ body::after {
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 10px;
-    font-size: 12px;
 }
 
 .download-btn {
