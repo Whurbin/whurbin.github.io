@@ -3,16 +3,21 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <title>Document</title>
+     <title>{{.Site.Title}} | {{.Title}}</title>
+     <link rel="stylesheet" href="/css/site.css">
+
 </head>
 <body>
-     {{ partial "header" (dict "Kind" .Kind "Template" "Single") }}
-
-     <div style="margin:25px;">
-          <h1>{{.Title}}</h1>
-          <div style="color:grey; font-size:16px;">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
-          <div style="color:grey; font-size:16px;">{{if .Params.author}}Author: {{.Params.Author}}{{end}}</div>
-          <div style="font-size:18px;">{{.Content}}</div>
+    {{ partial "navbar" . }}
+     <div class="container">
+         <center><h1>{{.Title}}</h1></center>
+         <div class="image-container">
+             <div class="circular-wrapper" style="width: 150px; height: 150px">
+                <img src="/images/whurbin_logo.png", alt="Circular Image" class="circular-image">
+             </div>
+         </div>
+        
+         {{.Content}}
      </div>
      {{ partial "footer" . }}
 </body>
