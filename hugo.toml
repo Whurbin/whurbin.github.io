@@ -12,7 +12,7 @@ authorName = "James Hogan"
 [taxonomies]
   tag = "tags"
   category = "categories"
-  project = "projects"
+#   project = "projects"
 
 [markup]
   [markup.highlight]

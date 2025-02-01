@@ -6,4 +6,4 @@ type = 'landing'
 layout = 'landing'
 +++
 
-<center>Security Researcher: Doer of stuff and things.</center>
+<center>Software Developer and Security Researcher</center>
