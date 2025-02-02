@@ -33,5 +33,4 @@ Throughout their heroic battles, puzzles, and challenges, loot would sometimes f
 "Have I told you of the virtues of the Great Girthy Bearded God Gundrik?!?!?!
 He looks on us all, bearded and un-bearded, and gives favor and strong beards to those who take faith in his beardedness!"
 </em></center>
-
 <br/>

@@ -101,7 +101,6 @@ body::after {
     color: #000000;
     border-radius: 8px;
     padding: 1.5rem;
-    max-width: 100%;
     width: calc(100% - 1.5rem - 2rem);
     max-width: 800px;
     margin: 2rem auto;
@@ -205,17 +204,48 @@ body::after {
 }
 
 /* Target the main container and its inner div */
+
+.highlight table {
+    table-layout: fixed;
+    width: 100%;
+}
+
 .highlight div {
     background-color: #1a1a1a !important;
     padding: 4px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 4px;
     border-radius: 5px 5px 5px 5px;
+    margin-top: auto;
 }
 
 /* Target the pre elements */
-.highlight pre {
+.highlight td:nth-child(1) {
+    width: 48px;
+}
+
+.highlight td:nth-child(1) pre {
     background-color: #1a1a1a !important;
+    overflow-x: auto;
+    white-space: pre;
+    word-wrap: normal;
+    width: 48px;
+    text-align: right;
+}
+
+.highlight td:nth-child(2) {
+    width: calc(100% - 48px);
+}
+
+/* Target the pre elements */
+.highlight td:nth-child(2) pre {
+    background-color: #1a1a1a !important;
+    word-wrap: normal;
+    width: 100%;
+    overflow-x: auto;
+    white-space: preserve nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
 }
 
 /* Target the table cells */
