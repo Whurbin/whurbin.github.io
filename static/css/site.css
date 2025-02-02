@@ -158,12 +158,21 @@ body::after {
     font-family: "Noto Sans Mono", monospace;
     font-size: 10px;
     color: #cbb478;
-    white-space: pre-wrap;
     word-wrap: break-word;
     background: #1a1a1a;
-    padding: 15px;
     border-radius: 5px;
     border: 1px solid #ddd;
+    overflow-x: auto;
+    white-space: preserve nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    padding: 15px;
+}
+
+@media screen .content-box {
+    .content-box {
+        font-size: 9px;
+    }
 }
 
 .loading {
